@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import os
 
 # --- CONFIG ---
-USERNAMES = ["_FriedrichMerz","Bundestag","KuehniKev","DietmarBartsch","Alice_Weidel","Markus_Soeder","elonmusk", "JDVance", "mattgaetz","TuckerCarlson","WashingtonPost","POLITICO","PeteHegseth","RobertKennedyJr","benshapiro","jordanbpeterson","Trevornoah","AOC","SWagenknecht","POTUS"]  # 👈 Add Twitter handles here
+USERNAMES = ["Bundestag","KuehniKev","DietmarBartsch","Alice_Weidel","Markus_Soeder","elonmusk", "JDVance", "mattgaetz","TuckerCarlson","WashingtonPost","POLITICO","PeteHegseth","RobertKennedyJr","benshapiro","jordanbpeterson","Trevornoah","AOC","SWagenknecht","POTUS"]  # 👈 Add Twitter handles here
 KEYWORDS = ["Europe", "Germany", "crypto", "Russia", "Ukraine", "war", "NATO", "Putin", "Trump","Merz","renewables","Erneuerbare","Russland"]  # 👈 Add keywords here
 EMAIL_FROM = os.environ["EMAIL_FROM"]
 EMAIL_TO = os.environ["EMAIL_TO"]
