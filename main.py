@@ -55,7 +55,7 @@ def send_email(matches):
         html_content += f"""\
           <li style="margin-bottom: 20px; list-style: none; border-bottom: 1px solid #ddd; padding-bottom: 10px;">
             <strong>@{m['user']}</strong> — <em>{m['date']}</em><br>
-            <p style="margin: 8px 0;">{m['text'].replace('\n', '<br>')}</p>
+            <p style="margin: 8px 0;">{tweet_text}</p>
             <a href="{m['url']}">View Tweet</a>
           </li>
         """
