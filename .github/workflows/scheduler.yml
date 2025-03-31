@@ -1,8 +1,9 @@
 name: Daily Twitter Check
 
 on:
-  schedule:
-    - cron: "0 20 * * *"  # Every day at 20:00 UTC
+  #-----Unschedule for now as snscrape is not working, hence scheduling is commented out----
+  # schedule:
+  #   - cron: "0 20 * * *"  # Every day at 20:00 UTC
   workflow_dispatch:
 
 jobs:
